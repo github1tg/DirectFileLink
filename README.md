@@ -1,4 +1,4 @@
-# tgfilestream
+# DirectFileLink Bot
 A Telegram bot that can stream Telegram files to users over HTTP.
 
 ## Setup
@@ -8,6 +8,10 @@ environment variables (see below) and run with `python3 -m tgfilestream`.
 A reverse proxy is recommended to add TLS. When using a reverse proxy, keep
 `HOST` as-is, but add the publicly accessible URL to `PUBLIC_URL`. The URL
 should include the protocol, e.g. `https://example.com`.
+
+## Heroku Deploy
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/noobvishal/DirectFileLink)
 
 ### Environment variables
 * `TG_API_ID` (required) - Your Telegram API ID.
@@ -22,3 +26,8 @@ should include the protocol, e.g. `https://example.com`.
 * `REQUEST_LIMIT` (default 5) - The maximum number of requests a single IP can have active at a time.
 * `CONNECTION_LIMIT` (default 20) - The maximum number of connections to a single Telegram datacenter.
 * `TG_START_MESG` - The message that should be shown in Telegram chat, in case of non-media message.
+
+## How to get TG_SESSION_NAME string
+
+   Run `python3 GenerateStringSession.py` and follow the instructions on screen.
+   * Note: When it will ask you for Phone Number and Bot token Give `Bot token` value

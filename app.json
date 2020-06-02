@@ -1,0 +1,37 @@
+{
+ "name": "Direct File Link Bot",
+ "description": "Telegram Bot To Generate Direct links Of Telegram Files!!",
+ "logo": "https://telegra.ph/file/a271c7c1cb8460c218022.png",
+ "keywords": [
+   "Telegram",
+   "DirectFileLInk"
+  ],
+ "repository": "https://github.com/noobvishal/DirectFileLInk",
+ "env": {
+   "TG_API_ID": {
+      "description": "Your Telegram API ID. Get this value from my.telegram.org!",
+      "value": ""
+  },
+   "TG_API_HASH": {
+      "description": " Your Telegram API hash. Get this value from my.telegram.org!",
+      "value": ""
+  },
+   "TG_SESSION_NAME": {
+      "description": "Run Console this (python3 GenerateStringSession.py) ",
+      "value": ""
+  },
+   "HOST": {
+      "description": "Leave the Same Value",
+      "value": "0.0.0.0",
+      "required": false
+  },
+   "PUBLIC_URL": {
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value": ""
+  },
+   "TG_START_MESG": {
+      "description": "Set /start Message",
+      "value": ""
+  }
+ }
+}

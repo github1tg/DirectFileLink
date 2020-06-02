@@ -38,7 +38,7 @@ trust_headers = bool(os.environ.get("TRUST_FORWARD_HEADERS"))
 host = os.environ.get("HOST", "localhost")
 public_url = URL(os.environ.get("PUBLIC_URL", f"http://{host}:{port}"))
 
-session_name = os.environ.get("TG_SESSION_NAME", "tgfilestream")
+session_name = os.environ.get("TG_SESSION_NAME", "DirectFileLink")
 
 log_config = os.environ.get("LOG_CONFIG")
 debug = bool(os.environ.get("DEBUG"))
@@ -58,5 +58,5 @@ except ValueError:
     sys.exit(1)
 
 
-start_message = os.environ.get("TG_START_MESG", "Send an image or file to get a link to download it")
-group_chat_message = os.environ.get("TG_G_C_MESG", "Sorry. But, I only work in private.")
+start_message = os.environ.get("TG_START_MESG", "**Send Any Document 📁🗂️🎥🎤🖼️ To Get Generate Direct Download Link.**")
+group_chat_message = os.environ.get("TG_G_C_MESG", "**Sorry. But, This Bot Only Works In DM.**")
