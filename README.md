@@ -11,7 +11,7 @@ should include the protocol, e.g. `https://example.com`.
 
 ## Heroku Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/noobvishal/DirectFileLink)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/github1tg/DirectFileLink)
 
 ### Environment variables
 * `TG_API_ID` (required) - Your Telegram API ID.
