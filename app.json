@@ -6,7 +6,7 @@
    "Telegram",
    "DirectFileLInk"
   ],
- "repository": "https://github.com/noobvishal/DirectFileLInk",
+ "repository": "https://github.com/github1tg/DirectFileLink",
  "env": {
    "TG_API_ID": {
       "description": "Your Telegram API ID. Get this value from my.telegram.org!",
