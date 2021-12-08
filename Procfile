@@ -1,1 +1,1 @@
-web: python3 -m directfilelink
+worker: python3 bot.py
